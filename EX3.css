@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.div1{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    border: solid black;
+}
+.ball{
+    background-color: goldenrod;
+
+}
+.raquette{
+    background-color: goldenrod;
+}
+.score{
+    background-color: black;
+}
