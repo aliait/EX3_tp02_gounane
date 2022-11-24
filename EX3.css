@@ -1,21 +1,48 @@
 *{
     padding: 0;
     margin: 0;
+
+}
+body{
+    background: grey;
+    
 }
 
-.div1{
-    width: 500px;
-    height: 200px;
+#zone{
+    width: 400px;
+    height: 400px;
     background-color: blue;
     border: solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-.ball{
+#ball{
     background-color: goldenrod;
+    border: solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 
 }
-.raquette{
+#raquette{
     background-color: goldenrod;
+    border: solid black;
+    width: 75px;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
 }
-.score{
+#score{
     background-color: black;
+    border: solid  black ;
+    width: 8px;
+    height: 15px;
+    float: right;
+    top :0;
+    position: absolute ;
+    right: 0;
+    color: red;
+    text-align: center;
 }
